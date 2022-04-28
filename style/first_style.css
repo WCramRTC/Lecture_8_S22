@@ -1,0 +1,32 @@
+body {
+    
+}
+
+* {
+    border: 1px solid rgb(212, 212, 212);
+}
+
+#header {
+    display: grid;
+    grid-template-rows: 80% auto;
+    text-align: center;
+}
+
+#navigation {
+    font-size: .6rem;
+}
+
+#hero-image {
+    height: 150px;
+    background-color: red;
+}
+
+#content {
+    height: 100px;
+    background-color: blue;
+    width: 90%;
+    margin: 0 auto;
+    /* Creating two columns in content div */
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
