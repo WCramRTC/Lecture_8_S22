@@ -49,5 +49,23 @@ body {
     margin-top: -30px;
     background-color: white;
     box-shadow: -1px 1px 6px black;
+    padding: 10px;
 }
 
+
+
+.content-article-post-content{
+    margin-top: 10px;
+    font-size: .6rem;
+}
+.content-article-post-title {
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.content-article-post-link {
+    color: red;
+    font-size: .5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
